@@ -1,11 +1,11 @@
-name: 'GitHub Actions DNSPod Bot'
+name: 'GitHub Actions DNSPod'
 
 on:
   push:
     branches: 
       - master
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/15 * * * *'
 
 jobs:
   build:
